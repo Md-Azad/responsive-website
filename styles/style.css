@@ -1,7 +1,14 @@
+
+body{
+    margin:0;
+}
+
 /* fonts */
 
 
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@500&family=Open+Sans:wght@600&family=Poppins:wght@500&family=Ubuntu:wght@300&family=Work+Sans:wght@500&display=swap');
+
+
 
 
   /* buttons */
@@ -10,81 +17,77 @@
     background: #FF900E;
     width: 180px;
     height: 64px;
+    margin-bottom: 32px ;
     border-radius: 8px;
     border: none;
   }
-
-/* navbar styles */
-main{
-    background-color:rgba(255, 144, 14, 0.1);
-}
-
-.nav-elements{
-    /* background-color: rgba(255, 144, 14, 0.1); */
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
-    /* padding-top: 60px; */
-}
-
-.nav-manu ul{
-    /* display: flex; */
-    
-}
-
-ul li{
-    font-family: 'Work Sans', sans-serif;
+.nav-manu ul li{
     list-style: none;
-    padding-left: 20px;
-    font-weight: 500;
-    font-size: 18px;
 }
 
-.nav-title{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-}
-
-
-/* ---------------------------------
-            main description
------------------------------------- */
-
-.header{
-   
-    Width:862px;
-    
-    /* border: 2px solid black; */
+.header-info{
     margin: 0 auto;
 }
-.header-details{
-    font-family: 'Work Sans', sans-serif;
-    text-align: center;
-    /* padding: 5px 50px; */
+.header-des{
+        margin: auto;
+        width: 50%;
+        /* border: 3px solid green; */
+        padding: 10px;
+        text-align: center;
+
 }
 
-.header-title{
-    color: #131313;
-    font-weight: 700;
-    font-size: 64px;
-}
-
-.header-description{
-    color: #727272;
-    font-weight: 400;
-    font-size: 16px;
-}
+.header-img img{
+   
+    margin-left : 13rem;
+    width: 70%;
+    height: 20rem;
+  
+    
+} 
 
 
-@media screen and (min-width:980px) {
-    .nav-elements{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .nav-manu ul{
-        display: flex;
+/* responsive */
+
+ @media screen and (max-width:576px) {
+    .header{
+        background: rgba(255, 144, 14, 0.1);
         
     }
+    .nav{
+        background: rgba(255, 144, 14, 0.1);
+        display: flex;
+        flex-direction: column;
+    }
+    .header-img img{
+        margin-left: 3rem;
+        width: 70%;
+        height: 10rem;
+      
+        
+    } 
+   
 }
+@media screen and (min-width:800px) {
+    .header{
+        background: rgba(255, 144, 14, 0.1);
+    
+    }
+
+    .nav{
+     
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-manu ul{
+        display: flex;
+        gap:30px;
+        
+        
+    }
+    
+
+    
+} 
+
