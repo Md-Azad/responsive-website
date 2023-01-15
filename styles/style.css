@@ -310,7 +310,7 @@ body{
     }
     .main-body{
         width: 50rem;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         margin: 1rem 5rem;
 
