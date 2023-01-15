@@ -172,6 +172,16 @@ body{
 
 }
 
+
+.bonus{
+    text-align: center;
+    margin-top: 30px;
+}
+.video iframe{
+    margin-right: 3rem;
+    border: 2px solid #FF900E;
+}
+
 /* Main section second part end  */
 
 /* .first{
@@ -266,7 +276,7 @@ body{
 }
 
 
-@media screen and (min-width:991px){
+@media screen and (min-width:993px){
     .header{
         background: rgba(255, 144, 14, 0.1);
     
@@ -299,6 +309,8 @@ body{
         gap: 5px;
     }
     .main-body{
+        width: 50rem;
+        border: 1px solid red;
         display: flex;
         margin: 1rem 5rem;
 
