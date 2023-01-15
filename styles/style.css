@@ -219,7 +219,7 @@ body{
         text-align: center;
     }
     .bg-btn img{
-        width: 355px;
+        /* width: 12rem; */
     }
     .bg-btn button{
         position: relative;
@@ -230,7 +230,7 @@ body{
      .bg-btn img{
         position:absolute;
         /* object-fit: contain; */
-        width: 28rem;
+        width: 100%;
         z-index: 1;
     
     }
