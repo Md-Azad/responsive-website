@@ -306,7 +306,8 @@ body{
         height: 22rem;
         /* padding-left: ; */
         /* margin: auto; */
-        margin:3rem;
+        margin-top:2rem;
+        margin-left:7rem;
         text-align: center;
     }
 
