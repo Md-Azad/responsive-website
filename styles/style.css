@@ -57,7 +57,10 @@ body{
 
 /* sponsors section's styles end  */
 
-
+/* footer styles  */
+.footer p{
+    text-align: center;
+}
 
   /* buttons */
 
@@ -149,7 +152,7 @@ body{
         
     }
     .nav{
-        background: rgba(255, 144, 14, 0.1);
+        /* background: rgba(255, 144, 14, 0.1); */
         display: flex;
         flex-direction: column;
     }
@@ -196,6 +199,13 @@ body{
 
     .desktop{
         text-align: center;
+    }
+
+    .sp-logos{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        /* justify-content: space-around; */
     }
 
  
