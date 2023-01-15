@@ -300,7 +300,7 @@ body{
     }
     .main-body{
         display: flex;
-        justify-content: center;
+        margin: 1rem 5rem;
 
     }
     .main-description{
